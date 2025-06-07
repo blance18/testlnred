@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Liberation x reDDrop</title>
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Unbounded', sans-serif;
+      background: #0a0a0a;
+      color: white;
+    }
+    .section {
+      text-align: center;
+      padding: 60px 20px 20px;
+    }
+    h1 {
+      font-size: 2.8em;
+    }
+    p.subtitle {
+      color: #ccc;
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
+    .divider {
+      height: 3px;
+      margin: 40px auto;
+      width: 60%;
+      background: linear-gradient(to right, #cc66ff, #ff0033);
+      border-radius: 3px;
+    }
+    .split-section {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding: 60px 5%;
+      gap: 40px;
+    }
+    .half {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .half h2 {
+      font-size: 1.8em;
+      margin-bottom: 20px;
+    }
+    .half p {
+      font-size: 1em;
+      line-height: 1.6em;
+      color: #ddd;
+    }
+    .faq {
+      padding: 40px 5%;
+    }
+    .faq h3 {
+      font-size: 1.5em;
+      margin-bottom: 20px;
+    }
+    .faq-item {
+      margin-bottom: 15px;
+    }
+    .faq-item summary {
+      cursor: pointer;
+      font-weight: bold;
+      color: #ff3366;
+    }
+    .faq-item p {
+      margin-top: 10px;
+      color: #ccc;
+    }
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      padding: 60px 5%;
+    }
+    .feature-box {
+      flex: 1;
+      min-width: 280px;
+      max-width: 320px;
+      background: #111;
+      border: 2px solid;
+      border-radius: 20px;
+      padding: 20px;
+      color: #ccc;
+    }
+    .feature-box.liberation { border-color: #cc66ff; }
+    .feature-box.reddrop { border-color: #ff0033; }
+    .alliance-block {
+      background: #0a0a0a;
+      text-align: center;
+      padding: 80px 20px;
+      background: linear-gradient(to bottom, #000, #111);
+    }
+    .alliance-block h2 {
+      font-size: 2em;
+      background: linear-gradient(to right, white, #999);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 20px;
+    }
+    .alliance-block p {
+      font-size: 1em;
+      color: #ccc;
+      max-width: 600px;
+      margin: 0 auto;
+      line-height: 1.6em;
+    }
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      border-top: 1px solid #222;
+      background: #000;
+      font-size: 0.9em;
+      color: #666;
+    }
+    footer a {
+      color: #ff3399;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+    @media (max-width: 768px) {
+      .split-section { flex-direction: column; }
+      .half { width: 100%; }
+    }
+  </style>
+</head>
+<body>
+  <div class="section">
+    <h1>Liberation x reDDrop</h1>
+    <p class="subtitle">Новая эра независимой уличной моды — всё начинается 10 июня</p>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="split-section">
+    <div class="half">
+      <h2>Liberation</h2>
+      <p>Провокационный стиль, продукция с идеологией, дерзкий подход. Мы не следуем трендам — мы ими становимся. За каждым дропом стоит идея. Это не одежда, это заявление.</p>
+    </div>
+    <div class="half">
+      <h2>reDDrop</h2>
+      <p>Скрытое сообщество, решающее проблемы и создающее моду для тех, кто вне системы. Уникальные коллекции, доступ только для своих. Не просто перепродажа — это движение.</p>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="split-section">
+    <div class="half">
+      <h2>Почему Liberation?</h2>
+      <div class="feature-box liberation">
+        <p>✓ Каждый дроп с манифестом<br>✓ Ограниченные выпуски<br>✓ Вызывающий стиль</p>
+      </div>
+    </div>
+    <div class="half">
+      <h2>Почему reDDrop?</h2>
+      <div class="feature-box reddrop">
+        <p>✓ Сообщество своих<br>✓ Доступ к инсайдам<br>✓ Только закрытые дропы</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="split-section">
+    <div class="half">
+      <h2>Liberation: выбор тех, кто бросает вызов</h2>
+      <p>Уличная культура больше не в подчинении мейнстриму. Мы создаём одежду, которая выражает твою суть. Когда ты надеваешь Liberation — ты заявляешь: «Я другой». Больше чем стиль — это протест, стиль и независимость.</p>
+    </div>
+    <div class="half">
+      <h2>reDDrop: твоя закрытая территория</h2>
+      <p>Уникальные никотиновые продукты, редкие релизы и атмосфера приватности. Всё это внутри приватного канала, где каждый участник — часть культа. Здесь нет случайных. Это твоя зона — и твои правила. Присоединяйся и забудь про обычное.</p>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="split-section">
+    <div class="half">
+      <h2>FAQ — Liberation</h2>
+      <div class="faq">
+        <div class="faq-item"><details><summary>Что делает Liberation уникальным?</summary><p>Идеология и дерзость в каждом дропе, без шаблонов.</p></details></div>
+        <div class="faq-item"><details><summary>Как получить продукцию?</summary><p>Следи за анонсами в Telegram, дропы ограничены.</p></details></div>
+      </div>
+    </div>
+    <div class="half">
+      <h2>FAQ — reDDrop</h2>
+      <div class="faq">
+        <div class="faq-item"><details><summary>Как попасть в сообщество?</summary><p>Подписка на канал — первый шаг. Остальное узнаешь внутри.</p></details></div>
+        <div class="faq-item"><details><summary>Что будет в закрытом канале?</summary><p>Промо, ранний доступ, идеи и голосование за будущие дропы.</p></details></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="alliance-block">
+    <h2>Alliance</h2>
+    <p>Именно Alliance стал ядром объединения независимых проектов, таких как reDDrop и Liberation. Мы соединяем сообщества, продукты и ценности. Это не просто поддержка — это единая структура, где каждый бренд усиливает другой. Приватность, эксклюзивность и уважение к стилю — вот основа Alliance.</p>
+  </div>
+
+  <div class="divider"></div>
+
+  <footer>
+    Создано при поддержке <strong>Alliance</strong><br>
+    <span style="color: white; display: block; margin: 10px 0;">reDDrop является частью объединения Alliance.</span>
+    <a href="https://t.me/+oVsvUDTVJmpmYjQ6" target="_blank">@liberation</a>
+    <a href="https://t.me/+UhpI40ST9rxhY2Yy" target="_blank">@reDDrop</a>
+  </footer>
+</body>
+</html>
